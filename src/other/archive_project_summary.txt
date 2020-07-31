@@ -1,0 +1,421 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = Nexys-A7-50T-OOB
+Directory = D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/proj
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<constrs_1>
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/constraints/Nexys4DDR_C.xdc
+
+<sim_1>
+None
+
+<sources_1>
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/BRAM_1/BRAM_1.xci
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/BRAM_1/BRAM_1.vho
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/BRAM_1/BRAM_1.veo
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/BRAM_1/BRAM_1_ooc.xdc
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/BRAM_1/BRAM_1.mif
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/BRAM_1/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/BRAM_1/synth/BRAM_1.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/BRAM_1/BRAM_1.xml
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/other/Nexys4_all.coe
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/Square_Root.xci
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/Square_Root.vho
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/Square_Root.veo
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/hdl/xbip_utils_v3_0_vh_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/hdl/c_reg_fd_v12_0_vh_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/hdl/xbip_addsub_v3_0_vh_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/hdl/c_addsub_v12_0_vh_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/hdl/xbip_bram18k_v3_0_vh_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/hdl/mult_gen_v12_0_vh_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/hdl/axi_utils_v2_0_vh_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/hdl/cordic_v6_0_vh_rfs.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/synth/Square_Root.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/Square_Root/Square_Root.xml
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr.xci
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/doc/mig_7series_v4_1_changelog.txt
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/constraints/ddr.xdc
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/constraints/ddr_ooc.xdc
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr.vho
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/clocking/mig_7series_v4_1_infrastructure.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/clocking/mig_7series_v4_1_iodelay_ctrl.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/clocking/mig_7series_v4_1_tempmon.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_arb_mux.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_arb_row_col.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_arb_select.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_cntrl.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_common.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_compare.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_mach.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_queue.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_state.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_col_mach.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_mc.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_rank_cntrl.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_rank_common.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_rank_mach.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_round_robin_arb.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ecc/mig_7series_v4_1_ecc_buf.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ecc/mig_7series_v4_1_ecc_dec_fix.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ecc/mig_7series_v4_1_ecc_gen.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ecc/mig_7series_v4_1_ecc_merge_enc.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ecc/mig_7series_v4_1_fi_xor.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ip_top/mig_7series_v4_1_memc_ui_top_std.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ip_top/mig_7series_v4_1_mem_intfc.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_group_io.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_lane.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_calib_top.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_if_post_fifo.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy_wrapper.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_of_pre_fifo.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_4lanes.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ck_addr_cmd_delay.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal_hr.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_init.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_cntlr.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_data.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_edge.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_lim.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_mux.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_po_cntlr.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_samp.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_oclkdelay_cal.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_prbs_rdlvl.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_rdlvl.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_tempmon.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrcal.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl_off_delay.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_prbs_gen.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_cc.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_edge_store.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_meta.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_pd.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_tap_base.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_top.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ui/mig_7series_v4_1_ui_cmd.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ui/mig_7series_v4_1_ui_rd_data.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ui/mig_7series_v4_1_ui_top.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ui/mig_7series_v4_1_ui_wr_data.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_top.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ddr_mig_sim.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ddr.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr/user_design/rtl/ddr_mig.vhd
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/ddr.xml
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/mig_b.prj
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/ClkGen.xci
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/ClkGen_board.xdc
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/ClkGen.vho
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/ClkGen.xdc
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/ClkGen_ooc.xdc
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/mmcm_pll_drp_func_7s_mmcm.vh
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/mmcm_pll_drp_func_7s_pll.vh
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/mmcm_pll_drp_func_us_mmcm.vh
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/mmcm_pll_drp_func_us_pll.vh
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/mmcm_pll_drp_func_us_plus_pll.vh
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/mmcm_pll_drp_func_us_plus_mmcm.vh
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/ClkGen_clk_wiz.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/ClkGen.v
+d:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ClkGen/ClkGen.xml
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/ADXL362Ctrl.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/AccelArithmetics.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/AccelDisplay.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/AccelerometerCtl.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/AudioDemo.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/Dbncr.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/FPGAMonitor.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/LedBar.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/LocalRst.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/LogoDisplay.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/SyncAsync.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/MicDisplay.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/MouseCtl.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/MouseDisplay.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/OverlayCtl.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/PdmDes.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/PdmSer.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/Ps2Interface.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/Pwm.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/Ram2Ddr.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/RamCntrl.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/RgbLed.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/RgbLedDisplay.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/SPI_If.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/TWICtl.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/TempDisplay.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/TempSensorCtl.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/Vga.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/sSegDemo.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/sSegDisplay.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/hdl/top.vhd
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/other/Nexys4_all.coe
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/mig_a.prj
+D:/Github/prerelease/Nexys-A7/Nexys-A7-50T-OOB/src/ip/ddr/mig_b.prj
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/BRAM_1/BRAM_1.xci
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/BRAM_1/BRAM_1.vho
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/BRAM_1/BRAM_1.veo
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/BRAM_1/BRAM_1_ooc.xdc
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/BRAM_1/BRAM_1.mif
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/BRAM_1/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/BRAM_1/synth/BRAM_1.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/BRAM_1/BRAM_1.xml
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/other/Nexys4_all.coe
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/Square_Root.xci
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/Square_Root.vho
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/Square_Root.veo
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/hdl/xbip_utils_v3_0_vh_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/hdl/c_reg_fd_v12_0_vh_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/hdl/xbip_pipe_v3_0_vh_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/hdl/xbip_addsub_v3_0_vh_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/hdl/c_addsub_v12_0_vh_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/hdl/xbip_bram18k_v3_0_vh_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/hdl/mult_gen_v12_0_vh_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/hdl/axi_utils_v2_0_vh_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/hdl/cordic_v6_0_vh_rfs.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/synth/Square_Root.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/Square_Root/Square_Root.xml
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr.xci
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/doc/mig_7series_v4_1_changelog.txt
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/constraints/ddr_ooc.xdc
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr.vho
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/clocking/mig_7series_v4_1_infrastructure.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/clocking/mig_7series_v4_1_iodelay_ctrl.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/clocking/mig_7series_v4_1_tempmon.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_arb_mux.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_arb_row_col.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_arb_select.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_cntrl.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_common.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_compare.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_mach.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_queue.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_bank_state.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_col_mach.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_mc.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_rank_cntrl.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_rank_common.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_rank_mach.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_1_round_robin_arb.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ecc/mig_7series_v4_1_ecc_buf.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ecc/mig_7series_v4_1_ecc_dec_fix.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ecc/mig_7series_v4_1_ecc_gen.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ecc/mig_7series_v4_1_ecc_merge_enc.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ecc/mig_7series_v4_1_fi_xor.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ip_top/mig_7series_v4_1_memc_ui_top_std.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ip_top/mig_7series_v4_1_mem_intfc.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_group_io.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_lane.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_calib_top.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_if_post_fifo.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy_wrapper.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_of_pre_fifo.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_4lanes.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ck_addr_cmd_delay.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal_hr.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_init.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_cntlr.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_data.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_edge.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_lim.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_mux.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_po_cntlr.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_samp.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_oclkdelay_cal.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_prbs_rdlvl.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_rdlvl.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_tempmon.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrcal.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl_off_delay.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_prbs_gen.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_cc.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_edge_store.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_meta.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_pd.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_tap_base.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_poc_top.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ui/mig_7series_v4_1_ui_cmd.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ui/mig_7series_v4_1_ui_rd_data.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ui/mig_7series_v4_1_ui_top.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ui/mig_7series_v4_1_ui_wr_data.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_top.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ddr_mig_sim.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ddr.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr/user_design/rtl/ddr_mig.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/ddr.xml
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ddr/mig_b.prj
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/ClkGen.xci
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/ClkGen_board.xdc
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/ClkGen.vho
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/ClkGen.xdc
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/ClkGen_ooc.xdc
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/mmcm_pll_drp_func_7s_mmcm.vh
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/mmcm_pll_drp_func_7s_pll.vh
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/mmcm_pll_drp_func_us_mmcm.vh
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/mmcm_pll_drp_func_us_pll.vh
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/mmcm_pll_drp_func_us_plus_pll.vh
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/mmcm_pll_drp_func_us_plus_mmcm.vh
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/ClkGen_clk_wiz.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/ClkGen.v
+./Nexys-A7-50T-OOB.srcs/sources_1/ip/ClkGen/ClkGen.xml
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/ADXL362Ctrl.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/AccelArithmetics.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/AccelDisplay.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/AccelerometerCtl.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/AudioDemo.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/Dbncr.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/FPGAMonitor.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/LedBar.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/LocalRst.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/LogoDisplay.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/SyncAsync.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/MicDisplay.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/MouseCtl.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/MouseDisplay.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/OverlayCtl.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/PdmDes.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/PdmSer.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/Ps2Interface.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/Pwm.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/Ram2Ddr.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/RamCntrl.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/RgbLed.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/RgbLedDisplay.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/SPI_If.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/TWICtl.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/TempDisplay.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/TempSensorCtl.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/Vga.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/sSegDemo.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/sSegDisplay.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/hdl/top.vhd
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/other/Nexys4_all.coe
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/src/ip/ddr/mig_a.prj
+./Nexys-A7-50T-OOB.srcs/sources_1/imports/ip/ddr/mig_b.prj
+
+<constrs_1>
+./Nexys-A7-50T-OOB.srcs/constrs_1/imports/constraints/Nexys4DDR_C.xdc
+
+<sim_1>
+None
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+./Nexys-A7-50T-OOB.board/nexys-a7-50t
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/arthur/AppData/Roaming/Xilinx/Vivado/vivado.jou
+Archived Location = ./Nexys-A7-50T-OOB/vivado.jou
+
+Source File = C:/Users/arthur/AppData/Roaming/Xilinx/Vivado/vivado.log
+Archived Location = ./Nexys-A7-50T-OOB/vivado.log
+
